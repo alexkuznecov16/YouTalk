@@ -916,6 +916,14 @@ ol, ul{
 	.content-block li{
 		text-align: left;
 	}
+	.links-block {
+		padding: 24px 0 48px 0;
+		display: flex;
+		align-items: flex-start;
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 4px;
+	}
 }
 @media screen and (max-width: 1200px) {
 	.header__nav {
@@ -1001,6 +1009,9 @@ ol, ul{
 		flex-wrap: wrap;
 		justify-content: center;
 	}
+	.sub-info-text, .sub-info-text-2,  .sub-info-text-3, .sub-info__flex-text{
+		font-size: 12px;
+	}
 }
 
 @media screen and (max-width: 800px){
@@ -1033,6 +1044,16 @@ ol, ul{
 	.socials-list-input{
 		margin: 0 auto;
 	}
+	.sub-info__cite{
+		width: 400px;
+		height: 200px;
+	}
+	.content-block li{
+		font-size: 11px;
+	}
+	.content-title {
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 540px){
@@ -1041,6 +1062,15 @@ ol, ul{
 	}
 	.articles-item.small-size{
 		width: 300px;
+	}
+	.article__cite-block, .sub-info__exercise-block {
+		width: 350px;
+	}
+	.sub-info-img img {
+		width: 200px;
+	}
+	.alt-text{
+		font-size: 10px;
 	}
 }
 
@@ -1073,6 +1103,20 @@ ol, ul{
 	}
 	.socials-list-text {
 		font-size: 16px;
+	}
+	.sub-info__cite{
+		width: 290px;
+		height: 130px;
+		font-size: 11px;
+	}
+	.article__cite-block, .sub-info__exercise-block {
+		width: 250px;
+	}
+	.exercise-block-text{
+		font-size: 10px;
+	}
+	.flex-block-item img {
+		width: 200px;
 	}
 }
 
